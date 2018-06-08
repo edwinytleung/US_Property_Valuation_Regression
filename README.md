@@ -2,9 +2,9 @@
 Using various models to predict fair property transaction prices. 
 
 # Background
-Real Estate Investment Trust (REIT) invests in properties and one of their core business is to predict the fair transaction price of a property. This particular REIT operates in the US market.
+Real Estate Investment Trust (REIT) invests in properties and one of their core businesses is to predict the fair transaction price of a property.
 
-This REIT currently employs a third-party appraisal service to estimate the property price. However, in practice, the skill level of individual appraisers vary quite large. The REIT ran a trial run to compare the actual transaction prices with the estimates from the appraiser. It was found that the estimates given by inexperienced appraisers differs $70,000 on average.
+This particular REIT operates in the US market and currently employs a third-party appraisal service to estimate the property price. However, in practice, the skill level of individual appraisers vary quite large. The REIT ran a test to compare the actual transaction prices with the estimates from the appraiser. It was found that the estimates given by inexperienced appraisers differs $70,000 on average.
 
 # Data Science Driven Approach
 The REIT has hired a data scientist to find a data-driven approach to value properties instead of relying on the personal expertise from the appraiser. 
