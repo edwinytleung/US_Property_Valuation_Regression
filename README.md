@@ -79,10 +79,12 @@ Schools
 # Results
 10-fold cross validation:
 
-1. XGBoost pipeline: 46966.178 | Time taken: 0.862691
-2. CatBoost pipeline: 49003.277 | Time taken: 66.164037
-3. Random Forest pipeline: 52555.943 | Time taken: 0.796871
-4. Decision Tree pipeline: 69224.808 | Time taken: 0.167551
-5. Linear Regression pipeline: 92218.076 | Time taken: 0.020941
+| **Mean Absolute Error (USD) ** | **Time Taken (seconds)**|
+|:---:|:---:|
+|1. XGBoost pipeline: 46966.178 | 0.862691 |
+|2. CatBoost pipeline: 49003.277 | 66.164037|
+|3. Random Forest pipeline: 52555.943 | 0.796871|
+|4. Decision Tree pipeline: 69224.808 | 0.167551|
+|5. Linear Regression pipeline: 92218.076 | 0.020941|
 
 Without tuning, it seems like in terms of accuracy and efficiency. XGBoost is the best model to use for the property valuation with the lowest MAE for 10-fold cross validation (~47k). For the second best model CatBoost (MAE: ~49k), it requires much more time to perform a 10-fold cross validation (~77 folds of time for XGBoost). And of course, more tuning can be done to improve the predictability of the models.
