@@ -77,7 +77,7 @@ Schools
 - 'median_school' - Median score of the public schools within district, on the range 1 - 10
 
 # Results
-10-fold cross validation:
+**10-fold cross validation:**
 
 | **Mean Absolute Error (USD)** | **Time Taken (seconds)** |
 |:---:|:---:|
