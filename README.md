@@ -28,7 +28,7 @@ The goal is to build a real-estate pricing model to predict transaction prices w
 
 # Dataset
 Dimension of the dataset: 1883 rows, 26 columns
-<br>
+
 **Observations/Rows Explanation:**
  
 The dataset has 1883 observations in the city where the REIT is located. Each observation represent the transaction details of one property only. The transaction price for the observation range from $200K to $800K.
